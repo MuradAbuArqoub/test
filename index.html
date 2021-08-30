@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <h1>Dynamically Add & Remove Table Rows</h1>
+
+   <form>
+
+      <div class="input-row">
+         <label for="url">Url</label>
+         <input type="url" name="url" id="url" />
+      </div>
+
+      <div class="input-row">
+         <label for="website">Website Name</label>
+         <input type="text" name="website" id="website" />
+      </div>
+
+      <button>Submit</button>
+
+   </form>
+   
+   <table>
+      <thead>
+         <tr>
+            <th>Url</th>
+            <th>Website</th>
+            <th></th>
+         </tr>
+      </thead>
+      <tbody></tbody>
+   </table>
+
+   <footer>
+      <script src="app.js"></script>
+   </footer>
+</body>
+
+</html>
